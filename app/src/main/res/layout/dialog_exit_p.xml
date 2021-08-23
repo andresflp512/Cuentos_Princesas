@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/dialog_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_mlarge">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowColor="@color/overlay_dark_50"
+                android:shadowDx="0"
+                android:shadowDy="4"
+                android:shadowRadius="5"
+                android:text="@string/rateapp"
+                android:textColor="@color/yellow_700"
+                android:textSize="@dimen/txt_xxxxlarge"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_xmlarge"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/spacing_xlarge"
+                android:layout_height="@dimen/spacing_xxlarge"
+                android:src="@drawable/star_ic" />
+
+            <ImageView
+                android:layout_width="@dimen/spacing_xlarge"
+                android:layout_height="@dimen/spacing_xlarge"
+                android:layout_marginLeft="@dimen/spacing_lsmall"
+                android:src="@drawable/star_ic" />
+
+            <ImageView
+                android:layout_width="@dimen/spacing_xlarge"
+                android:layout_height="@dimen/spacing_xlarge"
+                android:layout_marginLeft="@dimen/spacing_lsmall"
+                android:src="@drawable/star_ic" />
+
+            <ImageView
+                android:layout_width="@dimen/spacing_xlarge"
+                android:layout_height="@dimen/spacing_xlarge"
+                android:layout_marginLeft="@dimen/spacing_lsmall"
+                android:src="@drawable/star_ic" />
+
+            <ImageView
+                android:layout_width="@dimen/spacing_xlarge"
+                android:layout_height="@dimen/spacing_xlarge"
+                android:layout_marginLeft="@dimen/spacing_lsmall"
+                android:src="@drawable/star_ic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_mlarge"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:layout_marginRight="@dimen/spacing_mlarge">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/dialogexit"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/txt_xlarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/spacing_middle">
+
+            <LinearLayout
+                android:gravity="center"
+                android:id="@+id/rateus"
+                android:background="@drawable/button_rounded"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spacing_xlarge"
+                android:layout_marginLeft="@dimen/spacing_mxlarge"
+                android:layout_marginRight="@dimen/spacing_mxlarge">
+
+                <TextView
+                    android:textSize="@dimen/txt_xlarge"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rate_star" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/spacing_middle">
+
+            <LinearLayout
+                android:gravity="center"
+                android:id="@+id/shareapp"
+                android:background="@drawable/button_rounded"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spacing_xlarge"
+                android:layout_marginLeft="@dimen/spacing_mxlarge"
+                android:layout_marginRight="@dimen/spacing_mxlarge">
+
+                <TextView
+                    android:textSize="@dimen/txt_xlarge"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nav_share_app" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:layout_marginBottom="@dimen/spacing_mlarge">
+
+            <LinearLayout
+                android:gravity="center"
+                android:id="@+id/nothnks"
+                android:background="@drawable/button_rounded"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spacing_xlarge"
+                android:layout_marginLeft="@dimen/spacing_mxlarge"
+                android:layout_marginRight="@dimen/spacing_mxlarge">
+
+                <TextView
+                    android:textSize="@dimen/txt_xlarge"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exit" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

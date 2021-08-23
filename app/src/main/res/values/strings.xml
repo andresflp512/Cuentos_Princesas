@@ -1,0 +1,315 @@
+<resources>
+
+    <!-- Main String -->
+    <string name="app_name">Cuentos Infantiles</string>
+    <string name="app_sub_name">Historias para niños</string>
+    <string name="app_website">http://full-apps-org.com/</string>
+    <string name="package_name">com.innovapps.cuentosprincesas</string>
+    <string name="app_email">alexdevelopereche@gmail.com</string>
+    <string name="default_notification_channel_id">FULL_APPS</string>
+    <string name="msg_subscribed">SUBSCRIBED TOPIC</string>
+    <string name="msg_subscribe_failed">PROBLEM SUBSCRIBED TOPIC</string>
+    <string name="default_notification_channel_name">FULL APPS</string>
+
+    <!-- Intro splash string -->
+    <string name="screen1_title">Multi Content App</string>
+    <string name="screen1_desc">Multi Content App + Reward Coin</string>
+    <string name="screen2_title">Various content</string>
+    <string name="screen2_desc">You can play so much</string>
+    <string name="screen3_title">Online Videos</string>
+    <string name="screen3_desc">Streaming online video and audio</string>
+    <string name="screen4_title">Search</string>
+    <string name="screen4_desc">You can search your favorite content</string>
+    <string name="next">Siguiente</string>
+    <string name="skip">Cancelar</string>
+    <string name="start">Empezar</string>
+
+    <!-- Login/SignIn string -->
+    <string name="txt_login_username">Usuario</string>
+    <string name="txt_login_password">Contraseña</string>
+    <string name="txt_register_referral">ID Referencia</string>
+    <string name="txt_register_referral_help">Si tiene una identificación de referencia, ¡escriba aquí para recompensarlo!</string>
+    <string name="txt_register_referral_not_exist">No se encontró este ID de referencia.</string>
+    <string name="txt_forgot_password">¡Olvidé mi contraseña!</string>
+    <string name="txt_btn_login">Iniciar sesión</string>
+    <string name="txt_no_account">¿No tienes cuenta de usuario?</string>
+    <string name="txt_register">Registrarse</string>
+    <string name="txt_login">Inicio de sesión de usuario</string>
+    <string name="txt_btn_register">Registrarse</string>
+    <string name="txt_register_firstname">Nombre</string>
+    <string name="txt_register_lastname">Apellido</string>
+    <string name="txt_register_email">Email</string>
+    <string name="txt_empty_fullname">Ingrese nombre y apellido.</string>
+    <string name="txt_empty_mobile">Por favor, ingrese su nombre de usuario.</string>
+    <string name="txt_empty_email">Por favor introduzca su correo electrónico.</string>
+    <string name="txt_empty_password">Ingrese su contraseña.</string>
+    <string name="txt_fullname_length_error">Un mínimo de 3 caracteres.</string>
+    <string name="txt_mobile_length_error">Mínimo 5 caracteres.</string>
+    <string name="txt_email_length_error">Mínimo 10 caracteres.</string>
+    <string name="txt_email_not_valid">El formato de su correo electrónico no es correcto \nEjemplo: TuNombre@Gmail.com</string>
+    <string name="txt_password_length_error">Mínimo 8 caracteres.</string>
+    <string name="txt_register_success">Registro de éxito. ¡Por favor Iniciar sesión!</string>
+    <string name="txt_mobile_is_exist">¡Este nombre de usuario existe!</string>
+    <string name="txt_email_is_exist">¡Este correo electrónico existe!</string>
+    <string name="txt_success_login">¡Ingresa exitosamente!</string>
+    <string name="txt_failed_login">Nombre de usuario o contraseña incorrecta</string>
+    <string name="txt_logout_successfully">Cerrar sesión</string>
+    <string name="txt_please_login_first">Por favor, ingrese a su cuenta.</string>
+    <string name="txt_bookmark_login">Iniciar sesión</string>
+    <string name="txt_viewed">Visto</string>
+
+    <!-- Navigation Menu -->
+    <string name="navigation_drawer_open">Open Menu</string>
+    <string name="navigation_drawer_close">Close Menu</string>
+    <string name="nav_header_title">Sample App</string>
+    <string name="nav_header_subtitle">Video Channel</string>
+    <string name="nav_header_desc">Nav Description</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_category">Categorías</string>
+    <string name="nav_bookmark">Marcadores</string>
+    <string name="nav_about_app">Acerca de la aplicación</string>
+    <string name="nav_reward_coin">Recompensa</string>
+    <string name="nav_account_upgrade">Actualización de cuenta</string>
+    <string name="nav_contact">Contactanos</string>
+    <string name="nav_terms">Condiciones</string>
+    <string name="nav_share_app">Compartir</string>
+    <string name="nav_settings">Ajustes</string>
+    <string name="nav_txt_others">Cuenta</string>
+    <string name="nav_login">Inicio de sesión</string>
+    <string name="nav_register">Registrar nuevo usuario</string>
+    <string name="nav_my_profile">Mi perfil</string>
+    <string name="nav_exit">Cerrar sesión</string>
+
+    <string name="txt_ways_to_contact_us">Formas de contactar con nosotros</string>
+    <string name="txt_please_give_a_fair_rating">Por favor, dé una calificación justa</string>
+
+    <!-- Option Menu -->
+    <string name="action_settings">Ajustes</string>
+
+    <!-- Option Menu -->
+    <string name="menu_search">Buscar</string>
+    <string name="menu_about_us">Sobre nosotros</string>
+    <string name="menu_contact_us">Contactanos</string>
+    <string name="menu_terms">Condiciones</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="menu_back">Back</string>
+
+    <!-- Common String -->
+    <string name="txt_yes">Si</string>
+    <string name="txt_no">No</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_confirm_exit">¿Quieres salir?</string>
+    <string name="txt_exit">Salir</string>
+    <string name="txt_loading_category">En progreso...</string>
+    <string name="txt_loading">En progreso...</string>
+    <string name="txt_error">Error !!!</string>
+    <string name="txt_no_internet">Sin conexión a Internet!</string>
+    <string name="txt_retry">Inténtalo de nuevo</string>
+    <string name="txt_sub_category">subcategoría</string>
+    <string name="txt_no_result">Nada Encontrado!</string>
+    <string name="txt_no_slider_found">No se encontró control deslizante!</string>
+    <string name="txt_no_more_result">Nada más encontrado!</string>
+    <string name="txt_items_list">Lista de contenido</string>
+    <string name="txt_show_content">Mostrar</string>
+    <string name="txt_not_supported">No soportado!</string>
+
+    <string name="txt_featured_title">Destacados</string>
+    <string name="txt_best_rated_title">Mejor Valorado</string>
+    <string name="txt_latest_title">Recientes</string>
+    <string name="txt_special_title">Especial</string>
+    <string name="txt_view_title">Mas visto</string>
+    <string name="txt_show_all">Mostrar todo</string>
+
+    <string name="txt_search_keyword">Palabras clave...</string>
+    <string name="txt_btn_search">Buscar</string>
+    <string name="txt_please_enter_keyword">Ingrese palabras clave!</string>
+    <string name="txt_enter_keyword">Ingrese palabras claves</string>
+    <string name="txt_keyword_too_short">Un mínimo de 3 caracteres!</string>
+
+    <string name="txt_share">Hola, me gustaría compartir esta aplicación contigo:\n
+        https://play.google.com/store/apps/details?id=com.innovapps.cuentosprincesas</string>
+
+    <!-- About app information -->
+    <string name="about_app_name">Nombre de la aplicación</string>
+    <string name="about_app_version">Versión</string>
+    <string name="about_app_email">Email</string>
+    <string name="sub_about_app_email">extreme.developer@gmail.com</string>
+    <string name="about_app_copyright">Derechos de autor</string>
+    <string name="about_app_rate">Rango</string>
+    <string name="about_app_more">Más</string>
+    <string name="about_us">Acerca de</string>
+    <string name="sub_about_us">Acerca de nosotros</string>
+    <string name="about_app_terms">Condiciones</string>
+    <string name="sub_about_app_terms">Términos de servicio</string>
+    <string name="about_app_privacy_policy">Política de privacidad</string>
+    <string name="sub_about_app_privacy_policy">Política de privacidad</string>
+    <string name="about_app_gdpr_law">Ley GDPR</string>
+    <string name="sub_about_app_gdpr_law">Contenido de la ley GDPR</string>
+    <string name="sub_about_app_version">Versión:</string>
+    <string name="about_app_website">Sitio web</string>
+    <string name="sub_about_app_website">https://full-apps-org.com</string>
+    <string name="sub_about_app_copyright">Todos los derechos reservados.
+    &#169; 2020
+    </string>
+    <string name="sub_about_app">Bienvenido al canal de video</string>
+    <string name="about_app_developer">Diseñado y desarrollado</string>
+    <string name="sub_about_app_developer">CodeCell Dev</string>
+    <string name="about_app_help">Recompensa</string>
+    <string name="sub_about_app_help">Como ganar monedas?</string>
+    <string name="title_activity_one_content">Mostrar un contenido</string>
+    <string name="title_activity_login">Inicio de sesión</string>
+    <string name="title_activity_register">Registrarse</string>
+
+    <string name="txt_get_update">Descargar nueva versión</string>
+    <string name="txt_check_update_title">Actualizar</string>
+    <string name="txt_check_update_msg">Hay una nueva actualización disponible. ¡Por favor actualice!</string>
+    <string name="txt_later">Más tarde</string>
+    <string name="txt_update_url">https://play.google.com/store/apps/details?id=com.innovapps.cuentosprincesas</string>
+
+    <string name="txt_maintenance_title">Modo de mantenimiento</string>
+
+    <string name="txt_my_profile">Mi perfil</string>
+    <string name="txt_credit">Balance de crédito</string>
+    <string name="txt_username">Nombre de usuario</string>
+    <string name="txt_currency">$</string>
+    <string name="txt_currency_suffix">USD</string>
+    <string name="txt_profile_role">Rol del usuario</string>
+    <string name="txt_profile_web_login">Para actualizar la información de su perfil, inicie sesión en nuestra \"Versión web\", con su nombre de usuario y contraseña.</string>
+    <string name="txt_profile_web_login_btn">Versión web</string>
+    <string name="txt_user_profile_information_not_found">No se encontró la información del usuario. Inténtalo de nuevo.</string>
+
+    <string name="txt_whoops">Ups!</string>
+    <string name="txt_no_network_connection_found">No se encontró conexión de red.</string>
+    <string name="txt_try_again">Inténtalo de nuevo</string>
+    <string name="txt_cancel">Cancelar</string>
+    <string name="txt_this_function_is_not_support_here">Esta función no es compatible aquí.</string>
+    <string name="txt_click_back_again_to_exit">¡Vuelva a hacer clic en Atrás para salir!</string>
+
+    <string name="txt_hide">ESCONDER</string>
+    <string name="txt_advertising">Publicidad</string>
+    <string name="txt_loading_ad">Cargando anuncio...</string>
+    <string name="txt_button_open">Abrir</string>
+    <string name="txt_button_show">Mostrar en la web</string>
+    <string name="txt_button_play">Play</string>
+    <string name="txt_button_play_video">Reproduce el video</string>
+    <string name="txt_button_play_music">Reproducir música</string>
+    <string name="txt_button_play_game">Jugar un juego</string>
+    <string name="txt_button_download">Descargar</string>
+    <string name="txt_add_comment">Escribe una reseña</string>
+    <string name="txt_show_comment">Mostrar reseñas</string>
+    <string name="txt_add_bookmark">Añadir a marcadores</string>
+    <string name="txt_remove_bookmark">Quitar de marcadores</string>
+    <string name="txt_write_your_comment">Escribe tu reseña (opcional)</string>
+    <string name="txt_please_write_your_comment">Por favor escriba su reseña!</string>
+    <string name="txt_please_select_your_rating">Seleccione su calificación!</string>
+    <string name="txt_your_comment_sent_successfully">Tu reseña se envió correctamente.</string>
+    <string name="txt_if_you_filling_the_comment_please_wait">Si completa el campo de revisión, espere la aprobación del moderador de la aplicación.</string>
+    <string name="txt_ratings_and_comments">Calificaciones &amp; Reseñas</string>
+    <string name="txt_rate_average">0.0</string>
+    <string name="txt_total_rate">0</string>
+    <string name="txt_you_sent_review_recently">Error: enviaste una reseña recientemente.</string>
+
+    <string name="txt_user_coin">Monedas de usuario</string>
+    <string name="txt_coin">monedas</string>
+    <string name="txt_how_to_reward_coin">Como ganar monedas?</string>
+    <string name="txt_access_permission">Permiso de acceso</string>
+    <string name="txt_this_content_is_for_vip_user_role">Este contenido es para usuarios VIP. Actualice su función para acceder a todo el contenido.</string>
+    <string name="txt_upgrade_role">Actualización de rol</string>
+    <string name="txt_about_application">Acerca de la aplicación</string>
+
+    <string name="txt_account_upgrade">Actualizar cuenta</string>
+    <string name="txt_hide_banner_ads">Ocultar anuncios de banner</string>
+    <string name="txt_hide_interstitial_ads">Ocultar anuncios intersticiales</string>
+    <string name="txt_upgrade_user_role_to_vip">Actualizar rol de usuario a VIP</string>
+    <string name="txt_requires_1000_coins">Requiere 1000 monedas.</string>
+    <string name="txt_requires_2000_coins">Requiere 2000 monedas.</string>
+    <string name="txt_please_select_an_option">Por favor seleccione una opción</string>
+    <string name="txt_submit">Enviar</string>
+    <string name="txt_vip_user_capabilities">Capacidades de usuario VIP:</string>
+    <string name="txt_vip_user_capabilities_description">* El usuario VIP tiene acceso a todo el contenido.\n* El usuario VIP puede publicar nuevo contenido.</string>
+    <string name="txt_not_enough_coin">No tienes suficientes monedas</string>
+    <string name="txt_banner_ads_has_been_hidden">Los anuncios de banner se han ocultado</string>
+    <string name="txt_banner_ads_has_been_hidden_description">Los anuncios de banner se han ocultado. Cierre la aplicación una vez y ábrala nuevamente para realizar cambios.</string>
+    <string name="txt_interstitial_ads_has_been_hidden">Los anuncios intersticiales se han ocultado</string>
+    <string name="txt_interstitial_ads_has_been_hidden_description">Los anuncios intersticiales se han ocultado. Cierre la aplicación una vez y ábrala nuevamente para realizar cambios.</string>
+    <string name="txt_your_account_has_changed_to_vip">Tu cuenta ha cambiado a VIP</string>
+    <string name="txt_your_account_has_changed_to_vip_description">Su cuenta ha cambiado a VIP. Cierre la aplicación una vez y ábrala nuevamente para realizar cambios.</string>
+    <string name="txt_your_balance">Tu balance:</string>
+    <string name="txt_coins">Moneda</string>
+    <string name="txt_users">Usuarios</string>
+    <string name="txt_update_my_profile_and_image">Actualizar mi perfil e imagen</string>
+    <string name="txt_update_profile">Actualización del perfil</string>
+    <string name="txt_account_upgrade_hide_ads">Actualizar la cuenta y ocultar anuncios</string>
+    <string name="txt_reward_coin_by_referral">Ganas monedas por el usuario de referencia a la aplicación</string>
+    <string name="txt_referral_user_to_join_us">Usuario de referencia para unirse a nosotros.</string>
+    <string name="txt_referral_user">Usuario de referencia</string>
+    <string name="txt_your_referral_id_is">Su ID de referencia es:</string>
+    <string name="txt_give_your_friends_the_above">Dé a sus amigos el ID de referencia anterior para ganar monedas por ambos.</string>
+    <string name="txt_give_your_friends_the_above_no_reward">Dé a sus amigos la ID de referencia anterior para unirse a nosotros.</string>
+    <string name="txt_all_the_users_that_you_are_referring_to">Todos los usuarios a los que tu refieres.</string>
+    <string name="txt_your_user_role_is">Tu rol de usuario es</string>
+    <string name="txt_your_coins">Tus monedas.</string>
+    <string name="txt_requires_coins">Requiere monedas:</string>
+    <string name="txt_you_earned_reward_coin">Ganaste una moneda de recompensa.</string>
+    <string name="txt_your_account_has_been_blocked_please_contact_administrator">Tu cuenta ha sido bloqueada. Comuníquese con el administrador.</string>
+
+    <string name="txt_withdrawal_coin">Moneda de retiro</string>
+    <string name="txt_withdrawal_coin_as_a_cash">Moneda de retiro como efectivo</string>
+    <string name="txt_withdrawal_account_name">Su cuenta o billetera</string>
+    <string name="txt_withdrawal_user_comment">Descripción (opcional)</string>
+    <string name="txt_withdrawal_account_type">Tipo de cuenta</string>
+    <string name="txt_withdrawal_account_name_is_empty">¡El nombre de la cuenta está vacío!</string>
+    <string name="txt_withdrawal_request_sent_successfully">Solicitud de retiro enviada con éxito</string>
+    <string name="txt_withdrawal_request_sent_successfully_please_wait">Solicitud de retiro enviada con éxito. Espere varios días para procesar su solicitud.\nPuede comprobar el estado de su solicitud desde nuestra versión web de su cuenta.</string>
+    <string name="txt_you_have_not_enough_coin_to_withdrawal">No tienes suficiente moneda para retirar.</string>
+    <string name="txt_minimum_coin_required">Moneda mínima requerida:</string>
+    <string name="txt_sending">Enviando...</string>
+    <string name="txt_done">Hecho</string>
+    <string name="txt_delete">Eliminar</string>
+    <string name="txt_delete_account">Borrar cuenta</string>
+    <string name="txt_delete_my_account">Borrar mi cuenta</string>
+    <string name="txt_deleting_your_account_will_delete_all_your_data">Eliminar su cuenta eliminará todos sus datos de nuestro servidor y no se restaurarán.</string>
+    <string name="txt_are_sure_you_want_to_delete">¿Estás seguro? ¿Quieres BORRAR tu cuenta?</string>
+    <string name="txt_confirm_deletion">Confirmar la eliminación</string>
+    <string name="txt_yes_delete">Borrar cuenta</string>
+    <string name="txt_your_account_has_been_deleted_successfully">Su cuenta ha sido eliminada correctamente.</string>
+    <string name="txt_please_wait">Por favor espera...</string>
+    <!--<string-array name="txt_withdrawal_account_type_array">
+        <item>PayPal</item>
+        <item>Bitcoin</item>
+    </string-array>-->
+
+    <string name="player_error">Error al inicializar el reproductor de YouTube: %s</string>
+    <string name="seek_to">Salta a</string>
+    <string name="seek_to_hint">Segundos</string>
+    <string name="txt_location_on_the_map">Ubicación en el mapa</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="txt_location_is_not_set">La ubicación no está configurada.</string>
+    <string name="txt_call_function_is_not_available_on_your_phone">La función de llamada no está disponible en su teléfono</string>
+
+    <!--dav-->
+    <string name="recomended">Recomendados</string>
+    <string name="more">Más</string>
+    <string name="more_apps">Mas aplicaciones</string>
+    <string name="about_app">Politica, terminos, privacidad…</string>
+    <string name="share_this_app">Comparte esta aplicacion</string>
+
+    <!--Dialog Security-->
+    <string name="title_dialo">ACTUALIZACIÓN</string>
+    <string name="Message_dialo">Para continuar disfrutando de nuestro contenido, por favor descarga nuestra nueva aplicación</string>
+    <string name="Message_dialo_version">Para continuar disfrutando de nuestro contenido, por favor descarga nuestra nueva versión</string>
+    <string name="Button_accept">ACEPTAR</string>
+    <string name="Button_Cancel">CANCELAR</string>
+
+    <!--Dialog Exit-->
+    <string name="sure_exit">¿Seguro que quieres salir de la aplicación?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="exit">Salir</string>
+    <string name="rateapp">CALIFICANOS</string>
+    <string name="day_image">Imágen Del Dia</string>
+    <string name="rate_star">Califícanos con 5 estrellas!</string>
+    <string name="dialogexit">Si te gusta nuestra aplicación, por favor dejanos una buena opinion</string>
+    <string name="share_content">Me gustaría compartir esto contigo. Aquí puedes descargar esta aplicación desde PlayStore</string>
+    <string name="label_video">Video</string>
+    <string name="label_audio">Audio</string>
+</resources>
