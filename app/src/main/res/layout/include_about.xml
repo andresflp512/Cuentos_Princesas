@@ -43,7 +43,7 @@
                     android:shadowRadius="1"
                     android:text="@string/recomended"
                     android:textAllCaps="true"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="@color/color_cardview"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -51,6 +51,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
+                    android:textColor="@color/colorBlack"
                     android:textAppearance="@style/TextAppearance.AppCompat.Small"
                     android:text="@string/more_apps" />
 
@@ -93,7 +94,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/nav_share_app"
                     android:textAllCaps="true"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="@color/color_cardview"
                     android:textStyle="bold"
                     android:shadowColor="@color/colorShadow"
                     android:shadowDx="2"
@@ -104,6 +105,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
+                    android:textColor="@color/colorBlack"
                     android:textAppearance="@style/TextAppearance.AppCompat.Small"
                     android:text="@string/share_this_app" />
 
@@ -129,8 +131,8 @@
             android:paddingBottom="16dp">
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="30dp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
                 android:layout_gravity="center"
                 android:scaleType="fitXY"
                 android:src="@drawable/ic_about" />
@@ -150,7 +152,7 @@
                     android:shadowRadius="1"
                     android:text="@string/sub_about_app_terms"
                     android:textAllCaps="true"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="@color/color_cardview"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -158,6 +160,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/about_app_privacy_policy"
+                    android:textColor="@color/colorBlack"
                     android:textAppearance="@style/TextAppearance.AppCompat.Small"
                     android:textSize="14sp" />
 

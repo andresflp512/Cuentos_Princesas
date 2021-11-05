@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     app:statusBarBackground="@drawable/ap_bar_gradient"
-    tools:context="com.innovapps.cuentosprincesas.activities.MainActivity">
+    tools:context="com.renovationapps.cuentosprincesas.activities.MainActivity">
 
     <include
         layout="@layout/app_bar_main"

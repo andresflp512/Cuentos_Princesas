@@ -95,7 +95,7 @@
             <LinearLayout
                 android:gravity="center"
                 android:id="@+id/rateus"
-                android:background="@drawable/button_rounded"
+                android:background="@drawable/button_rounded_exit"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/spacing_xlarge"
                 android:layout_marginLeft="@dimen/spacing_mxlarge"
@@ -121,7 +121,7 @@
             <LinearLayout
                 android:gravity="center"
                 android:id="@+id/shareapp"
-                android:background="@drawable/button_rounded"
+                android:background="@drawable/button_rounded_exit"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/spacing_xlarge"
                 android:layout_marginLeft="@dimen/spacing_mxlarge"
@@ -148,7 +148,7 @@
             <LinearLayout
                 android:gravity="center"
                 android:id="@+id/nothnks"
-                android:background="@drawable/button_rounded"
+                android:background="@drawable/button_rounded_exit"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/spacing_xlarge"
                 android:layout_marginLeft="@dimen/spacing_mxlarge"

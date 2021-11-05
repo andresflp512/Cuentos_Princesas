@@ -1,20 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f4d1ed20-c1de-44bb-ae29-f953f850a1d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_rounded_exit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Cuentos_Princesas.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Cuentos_Princesas.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/innovapps/cuentosprincesas/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/renovationapps/cuentosprincesas/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/AddCommentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/AddCommentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/ExoPlayerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/ExoPlayerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/HLSExoPlayerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/HLSExoPlayerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/JzPlayerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/JzPlayerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/NativeVideoPlayerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/NativeVideoPlayerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/OneContentDownloadActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/OneContentDownloadActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/OneContentLinkActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/OneContentLinkActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/OneContentMusicActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/OneContentMusicActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/OneContentProductActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/OneContentProductActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/OneContentTextActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/OneContentTextActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/OneContentVideoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/OneContentVideoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/OneSplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/OneSplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/RecomendedActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/RecomendedActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/ShowComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/ShowComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/ShowWebViewContentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/ShowWebViewContentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/WebViewPlayerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/WebViewPlayerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/WithdrawalActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/WithdrawalActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/activities/YouTubePlayerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/activities/YouTubePlayerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/adapters/AboutAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/adapters/AboutAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/adapters/CategoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/adapters/CategoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/adapters/CategoryHorizentalAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/adapters/CategoryHorizentalAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/adapters/CommentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/adapters/CommentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/adapters/ContentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/adapters/ContentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/adapters/ContentHorizentalAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/adapters/ContentHorizentalAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/adapters/RecomendedAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/adapters/RecomendedAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/fragments/AboutFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/fragments/AboutFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/fragments/CategoryFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/fragments/CategoryFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/fragments/MainFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/fragments/MainFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/fragments/SearchFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/fragments/SearchFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/fragments/SubCategoryFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/fragments/SubCategoryFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/fragments/WebViewFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/fragments/WebViewFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/models/AboutModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/models/AboutModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/models/CategoryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/models/CategoryModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/models/CommentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/models/CommentModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/models/ContentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/models/ContentModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/models/TypeContentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/models/TypeContentModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/services/AppFirebaseMessagingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/services/AppFirebaseMessagingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/utils/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/utils/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/utils/DialogExit.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/utils/DialogExit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/utils/DialogPackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/utils/DialogPackage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/utils/DisplayMetricsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/utils/DisplayMetricsHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/utils/Mcallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/utils/Mcallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/utils/NotificationUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/utils/NotificationUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/utils/PrefManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/utils/PrefManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/innovapps/cuentosprincesas/utils/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/renovationapps/cuentosprincesas/utils/Tools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_fragments.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_fragments.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_pause.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_pause.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_play.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_video.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_video.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dialog_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dialog_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_about.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_about.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_recomended.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_recomended.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_share.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_share.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/one_splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/one_splash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/splash_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splash_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/splash_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splash_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/splash_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splash_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/splash_activity.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splash_activity.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/splash_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splash_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_one_content_download.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_one_content_download.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_one_content_link.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_one_content_link.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_one_content_music.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_one_content_music.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_one_content_product.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_one_content_product.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_one_content_text.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_one_content_text.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_one_content_video.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_one_content_video.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_show_webview_content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_show_webview_content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_webview_player.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_webview_player.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_one_content_download.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_one_content_download.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_one_content_link.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_one_content_link.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_one_content_music.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_one_content_music.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_one_content_product.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_one_content_product.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_one_content_text.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_one_content_text.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_one_content_video.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_one_content_video.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_exit_p.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_exit_p.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_package_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_package_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/include_about.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/include_about.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/innovapps/cuentosprincesas/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/renovationapps/cuentosprincesas/ExampleUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@DVR0219831000014]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/andres/.android/avd/Pixel_2_API_28.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -24,13 +150,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wsmgKumgauJYwfO4i1Qu7qJYT9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="BundleExportedModule" value="Cuentos_Princesas.app" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1629726691375" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1633991162075" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -40,7 +177,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="Cuentos_Princesas.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -110,10 +247,30 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="667" y="265" width="586" height="490" key="find.popup" timestamp="1629753578482">
+    <state x="811" y="414" key="Github.ShareDialog" timestamp="1629761431323">
       <screen x="0" y="23" width="1920" height="974" />
     </state>
-    <state x="667" y="265" width="586" height="490" key="find.popup/0.23.1920.974@0.23.1920.974" timestamp="1629753578482" />
+    <state x="811" y="414" key="Github.ShareDialog/0.23.1920.974@0.23.1920.974" timestamp="1629761431323" />
+    <state x="622" y="222" key="Github.UntrackedFilesDialog" timestamp="1629761443105">
+      <screen x="0" y="23" width="1920" height="974" />
+    </state>
+    <state x="622" y="222" key="Github.UntrackedFilesDialog/0.23.1920.974@0.23.1920.974" timestamp="1629761443105" />
+    <state x="667" y="265" width="615" height="518" key="find.popup" timestamp="1632175873453">
+      <screen x="0" y="23" width="1920" height="974" />
+    </state>
+    <state x="667" y="265" width="615" height="518" key="find.popup/0.23.1920.974@0.23.1920.974" timestamp="1632175873453" />
   </component>
 </project>

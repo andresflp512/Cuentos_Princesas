@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg_fragments"
     android:fitsSystemWindows="true"
-    tools:context="com.innovapps.cuentosprincesas.activities.OneContentTextActivity">
+    tools:context="com.renovationapps.cuentosprincesas.activities.OneContentTextActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
@@ -77,8 +77,8 @@
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_one_content_text" />
 
+    <include layout="@layout/content_one_content_text" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabShowVideo"

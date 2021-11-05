@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.innovapps.cuentosprincesas.activities.OneContentProductActivity"
+    tools:context="com.renovationapps.cuentosprincesas.activities.OneContentProductActivity"
     tools:showIn="@layout/activity_one_content_product">
 
 

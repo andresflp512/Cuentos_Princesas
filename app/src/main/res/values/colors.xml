@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#0075FF</color>
-    <color name="colorPrimaryDark">#0075FF</color>
+    <color name="colorPrimary">#6937FF</color>
+    <color name="colorPrimaryDark">#6937FF</color>
     <color name="colorPrimaryLight">#999999</color>
-    <color name="gradient1">#0075FF</color>
-    <color name="gradient2">#00237A</color>
-    <color name="colorAccent">#FFC107</color>
+    <color name="gradient1">#8760FD</color>
+    <color name="gradient2">#6937FF</color>
+    <color name="colorAccent">#FFFFFF</color>
     <color name="buttonFloatting">#FFC107</color>
 
     <color name="colorBGL">#F1F1F1</color>
@@ -56,7 +56,7 @@
     <color name="overlay_dark_20">#33000000</color>
     <color name="overlay_dark_30">#4D000000</color>
     <color name="overlay_dark_40">#66000000</color>
-    <color name="overlay_dark_50">#80000000</color>
+    <color name="overlay_dark_50">#000000</color>
     <color name="overlay_dark_60">#99000000</color>
     <color name="overlay_dark_70">#B3000000</color>
     <color name="overlay_dark_80">#CC000000</color>
@@ -376,10 +376,10 @@
 
     <!--dav-->
     <color name="color_button_mas_dialog">@color/colorPrimary</color>
-    <color name="button_home">#FF5722</color>
-    <color name="color_cardview">#03a9f4</color>
-    <color name="color_cardview2">#66BC1B</color>
-    <color name="color_cardview3">#ff0068</color>
+    <color name="button_home">#600ADA</color>
+    <color name="color_cardview">#ff1489</color>
+    <color name="color_cardview2">#ff1489</color>
+    <color name="color_cardview3">#ff1489</color>
     <color name="colorExoplayer">#66BC1B</color>
     <color name="colorShadow">#6B3E3E3E</color>
 

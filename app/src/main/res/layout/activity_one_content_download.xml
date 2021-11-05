@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg_fragments"
     android:fitsSystemWindows="true"
-    tools:context="com.innovapps.cuentosprincesas.activities.OneContentDownloadActivity">
+    tools:context="com.renovationapps.cuentosprincesas.activities.OneContentDownloadActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"

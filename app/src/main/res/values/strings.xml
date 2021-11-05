@@ -1,11 +1,11 @@
 <resources>
 
     <!-- Main String -->
-    <string name="app_name">Cuentos Infantiles</string>
+    <string name="app_name">Cuentos Princesas</string>
     <string name="app_sub_name">Historias para niños</string>
-    <string name="app_website">http://full-apps-org.com/</string>
-    <string name="package_name">com.innovapps.cuentosprincesas</string>
-    <string name="app_email">alexdevelopereche@gmail.com</string>
+    <string name="app_website">http://www.powerapps10.com/</string>
+    <string name="package_name">com.renovationapps.cuentosprincesas</string>
+    <string name="app_email">renovation.apps2000@gmail.com</string>
     <string name="default_notification_channel_id">FULL_APPS</string>
     <string name="msg_subscribed">SUBSCRIBED TOPIC</string>
     <string name="msg_subscribe_failed">PROBLEM SUBSCRIBED TOPIC</string>
@@ -127,13 +127,13 @@
     <string name="txt_keyword_too_short">Un mínimo de 3 caracteres!</string>
 
     <string name="txt_share">Hola, me gustaría compartir esta aplicación contigo:\n
-        https://play.google.com/store/apps/details?id=com.innovapps.cuentosprincesas</string>
+        https://play.google.com/store/apps/details?id=com.renovationapps.cuentosprincesass</string>
 
     <!-- About app information -->
     <string name="about_app_name">Nombre de la aplicación</string>
     <string name="about_app_version">Versión</string>
     <string name="about_app_email">Email</string>
-    <string name="sub_about_app_email">extreme.developer@gmail.com</string>
+    <string name="sub_about_app_email">renovation.apps2000@gmail.com</string>
     <string name="about_app_copyright">Derechos de autor</string>
     <string name="about_app_rate">Rango</string>
     <string name="about_app_more">Más</string>
@@ -147,13 +147,13 @@
     <string name="sub_about_app_gdpr_law">Contenido de la ley GDPR</string>
     <string name="sub_about_app_version">Versión:</string>
     <string name="about_app_website">Sitio web</string>
-    <string name="sub_about_app_website">https://full-apps-org.com</string>
+    <string name="sub_about_app_website">https://powerapps10.com</string>
     <string name="sub_about_app_copyright">Todos los derechos reservados.
     &#169; 2020
     </string>
     <string name="sub_about_app">Bienvenido al canal de video</string>
     <string name="about_app_developer">Diseñado y desarrollado</string>
-    <string name="sub_about_app_developer">CodeCell Dev</string>
+    <string name="sub_about_app_developer">Renovation Apps</string>
     <string name="about_app_help">Recompensa</string>
     <string name="sub_about_app_help">Como ganar monedas?</string>
     <string name="title_activity_one_content">Mostrar un contenido</string>
@@ -164,7 +164,7 @@
     <string name="txt_check_update_title">Actualizar</string>
     <string name="txt_check_update_msg">Hay una nueva actualización disponible. ¡Por favor actualice!</string>
     <string name="txt_later">Más tarde</string>
-    <string name="txt_update_url">https://play.google.com/store/apps/details?id=com.innovapps.cuentosprincesas</string>
+    <string name="txt_update_url">https://play.google.com/store/apps/details?id=com.renovationapps.cuentosprincesas</string>
 
     <string name="txt_maintenance_title">Modo de mantenimiento</string>
 

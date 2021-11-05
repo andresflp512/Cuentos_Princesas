@@ -71,7 +71,7 @@
             <LinearLayout
                 android:gravity="center"
                 android:id="@+id/accept"
-                android:background="@drawable/button_rounded"
+                android:background="@drawable/button_rounded_exit"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/spacing_xlarge"
                 android:layout_marginLeft="@dimen/spacing_mxlarge"
@@ -97,7 +97,7 @@
             <LinearLayout
                 android:gravity="center"
                 android:id="@+id/cancel"
-                android:background="@drawable/button_rounded"
+                android:background="@drawable/button_rounded_exit"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/spacing_xlarge"
                 android:layout_marginLeft="@dimen/spacing_mxlarge"
