@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
@@ -19,10 +20,12 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
+import com.google.android.gms.ads.FullScreenContentCallback;
 import com.renovationapps.cuentosprincesas.BuildConfig;
 import com.renovationapps.cuentosprincesas.Config;
 import com.renovationapps.cuentosprincesas.R;
 import com.renovationapps.cuentosprincesas.utils.AppController;
+import com.renovationapps.cuentosprincesas.utils.AppOpenAdManager;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -33,6 +36,12 @@ public class OneSplashActivity extends AppCompatActivity {
     String mobileUserLogin;
     String settingVersionCode;
     Button btnTryAgain;
+
+    private static final String TAG = "AppOpenManager";
+    AppOpenAdManager appOpenAdManager;
+    private boolean isAdShown = false;
+    private boolean isAdDismissed = false;
+    private boolean isLoadCompleted = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -352,7 +361,7 @@ public class OneSplashActivity extends AppCompatActivity {
 
         }else{
             //Go to MainActivity
-            new Handler().postDelayed(new Runnable() {
+            /*new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
 
@@ -360,7 +369,56 @@ public class OneSplashActivity extends AppCompatActivity {
                     startActivity(i);
                     finish();
                 }
-            },0);
+            },0);*/
+            launchAppOpenAd();
         }
+    }
+    private void launchMainScreen() {
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        //dav
+        intent.putExtra("fromSplash",true);
+        startActivity(intent);
+        new Handler(Looper.getMainLooper()).postDelayed(this::finish, 2000);
+    }
+
+    private void launchAppOpenAd() {
+        appOpenAdManager = ((AppController) getApplication()).getAppOpenAdManager();
+        loadResources();
+        appOpenAdManager.showAdIfAvailable(new FullScreenContentCallback() {
+
+            @Override
+            public void onAdShowedFullScreenContent() {
+                isAdShown = true;
+            }
+
+            @Override
+            public void onAdDismissedFullScreenContent() {
+                isAdDismissed = true;
+                if (isLoadCompleted) {
+                    launchMainScreen();
+                    Log.d(TAG, "isLoadCompleted and launch main screen...");
+                } else {
+                    Log.d(TAG, "Waiting resources to be loaded...");
+                }
+            }
+        });
+    }
+
+    private void loadResources() {
+        new Handler(Looper.getMainLooper()).postDelayed(() -> {
+            isLoadCompleted = true;
+            // Check whether App Open ad was shown or not.
+            if (isAdShown) {
+                // Check App Open ad was dismissed or not.
+                if (isAdDismissed) {
+                    launchMainScreen();
+                    Log.d(TAG, "isAdDismissed and launch main screen...");
+                } else {
+                    Log.d(TAG, "Waiting for ad to be dismissed...");
+                }
+            } else {
+                launchMainScreen();
+            }
+        }, 3000);
     }
 }

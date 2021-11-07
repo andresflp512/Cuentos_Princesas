@@ -10,6 +10,8 @@ import com.android.volley.toolbox.Volley;
 import io.github.inflationx.calligraphy3.CalligraphyConfig;
 import io.github.inflationx.calligraphy3.CalligraphyInterceptor;
 import io.github.inflationx.viewpump.ViewPump;
+
+import com.google.android.gms.ads.MobileAds;
 import com.renovationapps.cuentosprincesas.R;
 
 
@@ -18,6 +20,8 @@ public class AppController extends Application
 	public static final String TAG = AppController.class.getSimpleName();
 	private RequestQueue mRequestQueue;
 	private static AppController mInstance;
+
+	private AppOpenAdManager appOpenAdManager;
 
 	private String userId;
 	private String userUserName;
@@ -504,6 +508,11 @@ public class AppController extends Application
 	{
 		super.onCreate();
 		mInstance = this;
+
+		MobileAds.initialize(this, initializationStatus -> {
+		});
+		appOpenAdManager = new AppOpenAdManager.Builder(this).build();
+
 		//For Custom Font
 		ViewPump.init(ViewPump.builder()
 				.addInterceptor(new CalligraphyInterceptor(
@@ -512,6 +521,10 @@ public class AppController extends Application
 								.setFontAttrId(R.attr.fontPath)
 								.build()))
 				.build());
+	}
+
+	public AppOpenAdManager getAppOpenAdManager() {
+		return this.appOpenAdManager;
 	}
 
 	public static synchronized AppController getInstance()

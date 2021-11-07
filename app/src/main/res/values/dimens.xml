@@ -40,4 +40,25 @@
     <dimen name="margin_top">10dp</dimen>
     <dimen name="space_view">5dp</dimen>
     <dimen name="space_margin">84dp</dimen>
+
+    <item name="gnt_text_row_weight" format="float" type="dimen">0.25</item>
+    <dimen name="gnt_small_margin">8dp</dimen>
+    <dimen name="gnt_default_margin">8dp</dimen>
+    <dimen name="gnt_text_size_small">10sp</dimen>
+    <dimen name="gnt_ad_indicator_width">25dp</dimen>
+    <dimen name="gnt_ad_indicator_height">20dp</dimen>
+    <dimen name="gnt_ad_indicator_top_margin">0dp</dimen>
+    <dimen name="gnt_ad_indicator_text_size">10sp</dimen>
+    <dimen name="gnt_no_margin">0dp</dimen>
+    <dimen name="gnt_no_size">0dp</dimen>
+
+    <dimen name="img_compact_width">128dp</dimen>
+    <dimen name="img_compact_height">90dp</dimen>
+    <dimen name="img_compact_height_2">120dp</dimen>
+    <dimen name="text_title_size">16sp</dimen>
+    <dimen name="text_sub_title_size">13sp</dimen>
+    <dimen name="text_content_title_size">18sp</dimen>
+    <dimen name="text_content_sub_title_size">14sp</dimen>
+    <dimen name="text_button_ad">13sp</dimen>
+
 </resources>

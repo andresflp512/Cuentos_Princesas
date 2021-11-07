@@ -1,5 +1,6 @@
 package com.renovationapps.cuentosprincesas.adapters;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -18,6 +19,9 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.bumptech.glide.request.RequestOptions;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdLoader;
+import com.google.android.gms.ads.nativead.MediaView;
 import com.renovationapps.cuentosprincesas.Config;
 import com.renovationapps.cuentosprincesas.activities.MainActivity;
 import com.renovationapps.cuentosprincesas.activities.OneContentDownloadActivity;
@@ -33,6 +37,8 @@ import java.util.Random;
 
 import com.renovationapps.cuentosprincesas.R;
 import com.renovationapps.cuentosprincesas.utils.Mcallback;
+import com.renovationapps.cuentosprincesas.utils.TemplateView;
+import com.renovationapps.cuentosprincesas.utils.Tools;
 
 import static com.renovationapps.cuentosprincesas.activities.MainActivity.user_role_id;
 
@@ -60,6 +66,13 @@ public class ContentAdapter extends RecyclerView.Adapter<ContentAdapter.ContentV
         holder.itemView.setTag(contentModel.get(position));
 
         ContentModel content = contentModel.get(position);
+
+        final ContentViewHolder vItem = (ContentViewHolder) holder;
+        if (holder.getAdapterPosition() % Config.NATIVO_INTERVALO == Config.NATIVO_INDEX) {
+            vItem.bindAdMobNativeAdView();
+        } else {
+            vItem.admob_native_template_back.setVisibility(View.GONE);
+        }
 
         holder.contentTitle.setText(content.getContent_title());
         Glide.with(context)
@@ -112,6 +125,9 @@ public class ContentAdapter extends RecyclerView.Adapter<ContentAdapter.ContentV
         public TextView contentTypeTitle;
         //dav
         CardView card_color;
+        TemplateView admob_native_template;
+        MediaView admob_media_view;
+        CardView admob_native_template_back;
 
         public ContentViewHolder(View itemView) {
             super(itemView);
@@ -126,6 +142,9 @@ public class ContentAdapter extends RecyclerView.Adapter<ContentAdapter.ContentV
             userRoleTitle = (TextView) itemView.findViewById(R.id.tv_user_role_title);
             //dav
             card_color = itemView.findViewById(R.id.card_color);
+            admob_native_template = itemView.findViewById(R.id.native_template);
+            admob_media_view = itemView.findViewById(R.id.media_view);
+            admob_native_template_back = itemView.findViewById(R.id.admob_native_template_back);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -274,6 +293,31 @@ public class ContentAdapter extends RecyclerView.Adapter<ContentAdapter.ContentV
                     });
                 }
             });
+        }
+        private void bindAdMobNativeAdView() {
+            AdLoader adLoader = new AdLoader.Builder(context, Config.AdMobNativeId)
+                    .forNativeAd(NativeAd -> {
+                        admob_media_view.setImageScaleType(ImageView.ScaleType.CENTER_CROP);
+                        admob_native_template.setNativeAd(NativeAd);
+                    }).withAdListener(new AdListener() {
+                        @Override
+                        public void onAdLoaded() {
+                            super.onAdLoaded();
+                            if (getAdapterPosition() % Config.NATIVO_INTERVALO == Config.NATIVO_INDEX) {
+                                admob_native_template_back.setVisibility(View.VISIBLE);
+                            } else {
+                                admob_native_template_back.setVisibility(View.GONE);
+                            }
+                        }
+
+                        @Override
+                        public void onAdFailedToLoad(int errorCode) {
+                            admob_native_template_back.setVisibility(View.GONE);
+                        }
+                    })
+                    .build();
+            adLoader.loadAd(Tools.getAdRequest((Activity) context));
+
         }
     }
 

@@ -83,6 +83,8 @@ public class Config {
     public static String AdMobNativeId = "ca-app-pub-9568545492340149/4829827374";
     public static int NATIVO_INDEX = 2;
     public static int NATIVO_INTERVALO = 4;
+    //Id admob anuncio de carga de app
+    public static final String AdMobAppOpenId = "ca-app-pub-3940256099942544/3419835294";
 
     //==========================================================================//
     public static String UnixToHuman(String publish_date){

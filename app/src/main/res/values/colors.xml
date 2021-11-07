@@ -20,6 +20,8 @@
     <color name="colorYellow">#ffee00</color>
     <color name="colorRed">#ff0000</color>
     <color name="colorGreen">#00CA11</color>
+    <color name="gradient_1">#002645</color>
+    <color name="gradient_2">#1b4185</color>
 
     <!-- Intro Splash Color start -->
     <color name="bg_screen1">#FF5722</color>
@@ -382,6 +384,15 @@
     <color name="color_cardview3">#ff1489</color>
     <color name="colorExoplayer">#66BC1B</color>
     <color name="colorShadow">#6B3E3E3E</color>
+
+    <color name="button_ad">@color/gradient_2</color>
+    <color name="ad_notification">@color/buttonFloatting</color>
+
+    <color name="gnt_test_background_color">#00F4F4F4</color>
+    <color name="gnt_white">#FFFFFF</color>
+    <color name="gnt_ad_green">#FFFFFF</color>
+    <color name="gnt_gray">#808080</color>
+    <color name="sub_text_color">#b8bcbe</color>
 
 
 </resources>

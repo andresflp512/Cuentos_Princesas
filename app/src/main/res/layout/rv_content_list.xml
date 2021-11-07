@@ -19,7 +19,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/admob_native_template_back"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_height="wrap_content"
+                card_view:cardPreventCornerOverlap="false"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardElevation="5dp"
+                android:visibility="gone"
+                card_view:cardCornerRadius="8dp">
+
+                <!--julian nativo-->
+                <com.renovationapps.cuentosprincesas.utils.TemplateView
+                    android:id="@+id/native_template"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:gnt_template_type="@layout/gnt_medium_template_view" />
+
+            </androidx.cardview.widget.CardView>
+
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_color"
